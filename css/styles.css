@@ -1,0 +1,163 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin: 0;
+  text-align: center;
+  background-color: #333;
+}
+
+img {
+  width: 200%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  background-image: url(./../img/img-header.jpg);
+  background-repeat: initial;
+  height: 200px;
+  justify-content: center;
+  color: #fff;
+}
+
+.header {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: -1px 0 1px black;
+}
+.headerTitle {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 40px;
+}
+.headerText {
+  font-size: 0.7em;
+
+  padding-bottom: 20px;
+}
+.headerButton {
+  width: 150px;
+  background: rgb(88, 103, 109);
+  border: 1px solid grey;
+  padding: 1em;
+  font-size: 0.6em;
+  text-shadow: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main {
+}
+
+.mainContainer {
+  display: flex;
+  background: #eaeaea;
+  color: #333;
+  justify-content: center;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  background: #eaeaea;
+  color: #333;
+}
+.mainHeaders {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 20px;
+}
+.main1Text {
+  font-size: 0.6em;
+  column-count: 2;
+  padding: 0 0 10px 20px;
+}
+
+.section2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.blocks {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #333;
+  padding: 1em 0 1em;
+}
+
+.verticalBlocks {
+  width: 160px;
+  height: 300px;
+  min-zoom: 1;
+  background-color: #eaeaea;
+}
+
+.verticalImg {
+  max-width: 80px;
+}
+
+.vericalName {
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 20px;
+}
+.verticalText {
+  font-size: 0.6em;
+  padding: 0 2em;
+}
+.underBlocks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.main2Text {
+  font-size: 0.6em;
+  padding: 0 100px 10px 100px;
+}
+.ContactAbout {
+  display: flex;
+  color: #fff;
+}
+.contactUs {
+  width: 50%;
+  background-color: #2690d4;
+}
+.contactAboutHead {
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.contactAboutText {
+  font-size: 0.6em;
+  padding: 10px 50px 10px 50px;
+}
+
+.aboutUs {
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+}
+.footerDivs {
+  width: 50%;
+  font-size: 0.6em;
+  padding: 10px 50px 10px 50px;
+}
