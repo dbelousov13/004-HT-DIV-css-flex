@@ -13,62 +13,50 @@ body {
 }
 
 img {
-  width: 200%;
+  width: 100%;
   height: auto;
 }
 
-.container {
-  display: flex;
-  background-image: url(./../img/img-header.jpg);
+.header {
+  background-image: url(./../img/header-background-img.png);
   background-repeat: initial;
-  height: 200px;
-  justify-content: center;
+  background-size: cover;
+  /* opacity: 0.4; */
+  height: 300px;
+  text-shadow: -1px 0 1px black;
+
   color: #fff;
 }
 
-.header {
-  max-width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-shadow: -1px 0 1px black;
-}
 .headerTitle {
-  font-size: 0.9em;
+  font-size: 2em;
   font-weight: bold;
   padding: 40px;
 }
-.headerText {
-  font-size: 0.7em;
 
+.headerText {
+  font-size: 1em;
   padding-bottom: 20px;
 }
+
 .headerButton {
   width: 150px;
   background: rgb(88, 103, 109);
-  border: 1px solid grey;
   padding: 1em;
-  font-size: 0.6em;
+  font-size: 1em;
   text-shadow: none;
   text-decoration: none;
   color: #fff;
 }
 
-.main {
-}
-
 .mainContainer {
-  display: flex;
   background: #eaeaea;
   color: #333;
-  justify-content: center;
 }
+
 .main1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-width: 70%;
+  margin: auto;
   background: #eaeaea;
   color: #333;
 }
@@ -84,58 +72,56 @@ img {
 }
 
 .section2 {
-  display: flex;
-  /* flex-direction: column; */
+  display: grid;
   justify-content: center;
+  /* border: 1px solid red; */
+  align-items: center;
 }
 
-.blocks {
-  width: 65%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.divForBlocks {
+  max-width: 1000px;
   background-color: #333;
-  padding: 1em 0 1em;
 }
 
 .verticalBlocks {
-  width: 160px;
+  min-width: 140px;
   height: 300px;
-  min-zoom: 1;
   background-color: #eaeaea;
+  margin: 30px;
+  justify-self: center;
 }
 
 .verticalImg {
-  max-width: 80px;
+  min-width: 140px;
 }
 
-.vericalName {
-  font-size: 0.7em;
+.verticalName {
   font-weight: bold;
   padding: 20px;
 }
+
 .verticalText {
   font-size: 0.6em;
   padding: 0 2em;
 }
+
 .underBlocks {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   background-color: #fff;
 }
+
 .main2Text {
   font-size: 0.6em;
   padding: 0 100px 10px 100px;
 }
-.ContactAbout {
-  display: flex;
+
+.contacts {
   color: #fff;
 }
+
 .contactUs {
-  width: 50%;
   background-color: #2690d4;
 }
+
 .contactAboutHead {
   font-size: 0.8em;
   font-weight: bold;
@@ -147,17 +133,12 @@ img {
   padding: 10px 50px 10px 50px;
 }
 
-.aboutUs {
-  width: 50%;
-}
-
-.footer {
-  display: flex;
+.footerDiv {
   background-color: #000;
   color: #fff;
 }
+
 .footerDivs {
-  width: 50%;
   font-size: 0.6em;
-  padding: 10px 50px 10px 50px;
+  margin: 20px 0;
 }
